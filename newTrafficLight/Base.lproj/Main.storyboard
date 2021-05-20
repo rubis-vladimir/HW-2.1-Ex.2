@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="newTrafficLight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="8ga-dZ-vem">
-                                <rect key="frame" x="155" y="150" width="391" height="114"/>
+                                <rect key="frame" x="148" y="246" width="118" height="404"/>
                                 <subviews>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zUD-S8-lal">
-                                        <rect key="frame" x="0.0" y="0.0" width="113.5" height="114"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="zUD-S8-lal" secondAttribute="height" multiplier="1:1" id="Jx6-jP-2ah"/>
@@ -36,7 +36,7 @@
                                         </variation>
                                     </view>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTR-Mz-huD">
-                                        <rect key="frame" x="138.5" y="0.0" width="113.5" height="114"/>
+                                        <rect key="frame" x="0.0" y="143" width="118" height="118"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="GTR-Mz-huD" secondAttribute="height" multiplier="1:1" id="rTO-oG-l0j"/>
@@ -53,7 +53,7 @@
                                         </variation>
                                     </view>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBK-UG-klB">
-                                        <rect key="frame" x="277" y="0.0" width="114" height="114"/>
+                                        <rect key="frame" x="0.0" y="286" width="118" height="118"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
@@ -67,7 +67,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" axis="vertical" spacing="25"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jf8-oH-gvJ">
-                                <rect key="frame" x="687.5" y="150" width="114.5" height="114"/>
+                                <rect key="frame" x="20" y="772" width="374" height="70"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="w59-79-PYS"/>
@@ -96,8 +96,8 @@
                         <constraints>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="height" secondItem="ZBK-UG-klB" secondAttribute="height" multiplier="1.00588" id="0hb-KU-ZmB"/>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="0og-Bd-d9o"/>
-                            <constraint firstItem="Jf8-oH-gvJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZBK-UG-klB" secondAttribute="trailing" constant="50" id="5LR-Eg-i9v"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jf8-oH-gvJ" secondAttribute="trailing" constant="50" id="DQ5-vf-asb"/>
+                            <constraint firstItem="Jf8-oH-gvJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZBK-UG-klB" secondAttribute="trailing" constant="10" id="5LR-Eg-i9v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jf8-oH-gvJ" secondAttribute="trailing" constant="20" id="DQ5-vf-asb"/>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="width" secondItem="ZBK-UG-klB" secondAttribute="width" multiplier="1.00588" id="GVB-Xb-E6t"/>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="width" secondItem="ZBK-UG-klB" secondAttribute="width" multiplier="1.07547" id="Ghj-YC-B8D"/>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZBK-UG-klB" secondAttribute="bottom" constant="50" id="Hoz-06-EH1"/>
@@ -107,7 +107,7 @@
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="height" secondItem="ZBK-UG-klB" secondAttribute="height" multiplier="1.07547" id="al1-9w-Jlb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jf8-oH-gvJ" secondAttribute="trailing" constant="20" id="bQo-7Y-CNp"/>
                             <constraint firstItem="8ga-dZ-vem" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cBO-2J-W2X"/>
-                            <constraint firstItem="8ga-dZ-vem" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="h3F-JD-Z1O"/>
+                            <constraint firstItem="8ga-dZ-vem" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="h3F-JD-Z1O"/>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="iHc-bg-Dje"/>
                             <constraint firstItem="8ga-dZ-vem" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iyR-aM-3Zo"/>
                             <constraint firstItem="Jf8-oH-gvJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jRg-kI-3L2"/>
@@ -205,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44.7867298578199" y="86.153846153846146"/>
+            <point key="canvasLocation" x="43.75" y="84.375"/>
         </scene>
     </scenes>
     <resources>
